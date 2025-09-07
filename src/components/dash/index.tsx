@@ -6,9 +6,9 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 
 import { useState } from "react";
 
-import { Header } from "@/components/header";
-import { Pokemon } from "@/components/pokemon";
-import { FormAdd } from "@/components/form-add";
+import { Header } from "components/header";
+import { Pokemon } from "components/pokemon";
+import { FormAdd } from "components/form-add";
 
 import { styles } from "./styles";
 

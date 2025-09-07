@@ -2,8 +2,8 @@ import { StyleSheet } from "react-native";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import { router } from "expo-router";
 
-import { Header } from "@/components/header";
-import { Pack } from "@/components/pack";
+import { Header } from "components/header";
+import { Pack } from "components/pack";
 
 export default function Index() {
   return (

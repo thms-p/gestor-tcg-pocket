@@ -18,7 +18,7 @@ export function Pack({ title, ...rest }: Props) {
       <View style={styles.container}>
         <ImageBackground
           style={styles.image}
-          source={require("@/assets/images/pack.jpg")}
+          source={require("assets/images/pack.jpg")}
           resizeMode="cover"
         >
           <Text style={styles.title}>{title}</Text>

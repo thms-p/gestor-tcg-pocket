@@ -11,8 +11,6 @@ export const styles = StyleSheet.create({
     overflow: "hidden",
     justifyContent: "center",
     alignItems: "center",
-    //marginLeft: 15,
-    //marginRight: 15,
   },
   image: {
     flex: 0.5,

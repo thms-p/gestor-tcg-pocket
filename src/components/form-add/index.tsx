@@ -1,5 +1,5 @@
 import { View, TextInput, Text, TouchableOpacity, Alert } from "react-native";
-import { use, useState } from "react";
+import { useState } from "react";
 
 import { styles } from "./styles";
 
@@ -23,7 +23,7 @@ export function FormAdd({ onClose, onAddPokemon }: Props) {
         Alert.alert("Erro", "Esse Pokémon não existe.");
         return;
       }
-      onAddPokemon(pokemonName.trim());
+      onAddPokemon(trimmedName);
       setPokemonName("");
       onClose();
     } catch (error) {
